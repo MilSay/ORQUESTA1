@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_agru_contratar_nombres"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:text="Nombres completo"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_agru_contratar_cargo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginRight="@dimen/fab_margin_half"
+        android:text="Manager"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginRight="@dimen/fab_margin_half"
+        android:gravity="center"
+        android:text="Contratos al:"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv_agru_contratar_celular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginRight="@dimen/fab_margin_half"
+        android:text="Celular"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv_agru_contratar_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginRight="@dimen/fab_margin_half"
+        android:text="Email"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv_agru_contratar_direccion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginRight="@dimen/fab_margin_half"
+        android:text="direccion"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginRight="@dimen/fab_margin_half"
+        android:gravity="center"
+        android:text="Siguenos en:"
+        android:textSize="20sp" />
+
+
+    <TextView
+        android:id="@+id/tv_agru_contratar_facebook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:drawablePadding="10dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginRight="@dimen/fab_margin_half"
+        android:text="Facebook"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/tv_agru_contratar_twitter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:drawablePadding="10dp"
+        android:layout_marginRight="@dimen/fab_margin_half"
+        android:text="Twitter"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/tv_agru_contratar_youtuve"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:drawablePadding="10dp"
+        android:layout_marginRight="@dimen/fab_margin_half"
+        android:text="Youtube"
+        android:textSize="20sp" />
+
+</LinearLayout>

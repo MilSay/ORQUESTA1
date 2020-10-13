@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:background="@null">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        app:cardCornerRadius="3dp"
+        app:cardElevation="1dp"
+        app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clipToPadding="false"
+            android:minHeight="145dp"
+            android:orientation="horizontal"
+            android:weightSum="8">
+
+            <ImageView
+                android:id="@+id/iv_agrupacion_image"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="2"
+                android:adjustViewBounds="true"
+                android:paddingLeft="@dimen/fab_margin"
+                android:paddingTop="@dimen/recylerview_margin_y"
+                android:paddingRight="@dimen/fab_margin_half"
+                android:paddingBottom="@dimen/recylerview_margin_y" />
+
+            <!-- <ImageView
+                android:id="@+id/iv_agrupacion_image"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"/>-->
+
+            <RelativeLayout
+                android:id="@+id/panelForm1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="6"
+                android:paddingLeft="@dimen/fab_margin_half"
+                android:paddingTop="@dimen/recylerview_margin_y"
+                android:paddingBottom="@dimen/recylerview_margin_y">
+
+                <RelativeLayout
+                    android:layout_width="300dp"
+                    android:layout_height="140dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginRight="4dp"
+                    android:orientation="vertical">
+
+                    <!--START OF RIGHT TOP AREA-->
+                    <TextView
+                        android:id="@+id/tv_agrupacion_razonSocial"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="1dp"
+                        android:background="#FFFFFF"
+                        android:ellipsize="end"
+                        android:maxLines="1"
+                        android:paddingBottom="@dimen/fab_margin_half"
+                        android:text="Heading"
+                        android:textSize="@dimen/heading_small"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+
+                        android:layout_width="286dp"
+                        android:layout_height="110dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerInParent="true"
+                        android:orientation="vertical"
+                        android:paddingTop="10dp">
+
+                        <TextView
+                            android:id="@+id/tv_agrupacion_generoMusical"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="@dimen/fab_margin_half"
+                            android:text="Genero:"
+                            android:textSize="@dimen/heading_x_small" />
+
+
+                        <TextView
+                            android:id="@+id/tv_agrupacion_historia"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="@dimen/fab_margin_half"
+                            android:text="Historia:"
+                            android:textSize="@dimen/heading_x_small" />
+
+                        <RatingBar
+                            style="?android:attr/ratingBarStyleSmall"
+                            android:id="@+id/totalRatingBar"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="2dp"
+                            android:isIndicator="true"
+                            android:numStars="5"
+                            android:progressTint="@color/bt_blue_pressed" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center">
+
+                            <Button
+                                android:id="@+id/tv_comentario"
+                                style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:drawablePadding="5dp"
+                                android:fontFamily="sans-serif-medium"
+                                android:gravity="center"
+                                android:text="Comentario"
+                                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                                android:textColor="@color/bt_border_color"
+                                android:textSize="12sp"
+                                android:textStyle="normal" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+                    <!--END OF RIGHT TOP AREA-->
+
+
+                </RelativeLayout>
+
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

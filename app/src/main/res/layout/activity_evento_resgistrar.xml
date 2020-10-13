@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/EcommerceTheme"
+    tools:context=".evento.EventoRegistrar">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/abl_cart_appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <include
+            layout="@layout/toolbar_layout"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/abl_cart_appbar">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!--START OF LOGIN AREA-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/fab_margin"
+                android:paddingLeft="@dimen/margin_x"
+                android:paddingRight="@dimen/margin_x"
+                android:paddingTop="@dimen/fab_margin">
+
+                <!--START OF LOGIN WITH PASSWORD AREA-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/et_evento_fecha"
+                        android:layout_width="171dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.5"
+                        style="@style/ETRegistrationForm"
+                        android:hint="Fecha" />
+
+                    <ImageButton
+                        android:id="@+id/btn_evento_fecha"
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_weight="0.5"
+                        android:background="@null"
+
+                        android:onClick="ObtenerFechaEvento"
+                        android:src="@drawable/ic_fecha"
+                        tools:ignore="ContentDescription" />
+
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/tv_evento_fecha"
+                    style="@style/validationMsg" />
+               <!-- <EditText
+                    android:id="@+id/et_evento_fecha"
+                    style="@style/ETRegistrationForm"
+                    android:hint="Fecha evento"
+                    android:inputType="text" />
+
+                <TextView
+                    android:id="@+id/tv_evento_fecha"
+                    style="@style/validationMsg" /> -->
+
+                <EditText
+                    android:id="@+id/et_evento_local_evento"
+                    style="@style/ETRegistrationForm"
+                    android:hint="Local evento"
+                    android:inputType="text" />
+
+                <TextView
+                    android:id="@+id/tv_evento_local_evento"
+                    style="@style/validationMsg" />
+
+                <EditText
+                    android:id="@+id/et_evento_direccion_evento"
+                    style="@style/ETRegistrationForm"
+                    android:hint="Direción evento"
+                    android:inputType="text"/>
+
+                <TextView
+                    android:id="@+id/tv_evento_direccion_evento"
+                    style="@style/validationMsg" />
+
+                <Spinner
+                    android:id="@+id/sp_evento_tipo_evento"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    />
+                <TextView
+                    android:id="@+id/tv_evento_tipo_evento"
+                    style="@style/validationMsg" />
+                <Spinner
+                    android:id="@+id/sp_evento_entrada"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    />
+                <TextView
+                    android:id="@+id/tv_evento_entrada"
+                    style="@style/validationMsg" />
+                <Spinner
+                    android:id="@+id/sp_evento_estado"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    />
+                <TextView
+                    android:id="@+id/tv_evento_estado"
+                    style="@style/validationMsg" />
+               <!-- <EditText
+                    android:id="@+id/et_evento_tipo_evento"
+                    style="@style/ETRegistrationForm"
+                    android:hint="Tipo evento"
+                    android:inputType="number" />
+
+                <TextView
+                    android:id="@+id/tv_evento_tipo_evento"
+                    style="@style/validationMsg" />
+
+                <EditText
+                    android:id="@+id/et_evento_entrada"
+                    style="@style/ETRegistrationForm"
+                    android:hint="Entrada evento"
+                    android:inputType="number" />
+
+                <TextView
+                    android:id="@+id/tv_evento_entrada"
+                    style="@style/validationMsg" />
+
+                <EditText
+                    android:id="@+id/et_evento_estado"
+                    style="@style/ETRegistrationForm"
+                    android:hint="Estado"
+                    android:inputType="number" />
+
+                <TextView
+                    android:id="@+id/tv_evento_estado"
+                    style="@style/validationMsg" /> -->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/et_evento_hora_inicio"
+                        android:layout_width="171dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.5"
+                        android:hint="Hora inicio" />
+
+                    <ImageButton
+                        android:id="@+id/btn_evento_hora_inicio"
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_weight="0.5"
+                        android:background="@null"
+
+                        android:onClick="ObtenerFechaInicio"
+                        android:src="@drawable/ic_hora"
+                        tools:ignore="ContentDescription" />
+
+                </LinearLayout>
+
+
+               <!-- <EditText
+                    android:id="@+id/et_evento_hora_inicio"
+                    style="@style/ETRegistrationForm"
+                    android:hint="Hora inicio"
+                    android:inputType="text" />-->
+
+                <TextView
+                    android:id="@+id/tv_evento_hora_inicio"
+                    style="@style/validationMsg" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/et_evento_hora_fin"
+                        android:layout_width="171dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.5"
+                        android:hint="Hora fin" />
+
+                    <ImageButton
+                        android:id="@+id/btn_evento_hora_fin"
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_weight="0.5"
+                        android:background="@null"
+
+                        android:onClick="ObtenerFechaFin"
+                        android:src="@drawable/ic_hora"
+                        tools:ignore="ContentDescription" />
+
+                </LinearLayout>
+                <!--<EditText
+                    android:id="@+id/et_evento_hora_fin"
+                    style="@style/ETRegistrationForm"
+                    android:hint="Hora fin"
+                    android:inputType="text" />-->
+
+                <TextView
+                    android:id="@+id/tv_evento_hora_fin"
+                    style="@style/validationMsg" />
+
+
+                <Button
+                    android:id="@+id/btn_evento_registrar"
+                    style="@style/BtnPrimary"
+                    android:text="@string/btn_registar" />
+
+
+            </LinearLayout>
+            <!--END OF LOGIN AREA-->
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

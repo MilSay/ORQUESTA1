@@ -1,0 +1,102 @@
+<resources>
+    <string name="app_name">Orquestas y Mas </string>
+    <string name="title_register">Registro</string>
+    <string name="title_settings">Ajustes</string>
+    <string name="title_sign_in">Iniciar sesión</string>
+
+
+    <string name="title_agrupacion">Registrar Agrupacion</string>
+    <string name="title_detalle_agrupacion">Detalle Agrupación</string>
+    <string name="title_comentario">Comentarios</string>
+    <string name="title_contrato">Registrar Contrato</string>
+    <string name="title_evento">Registrar Evento</string>
+
+    <string name="btn_enviar">Enviar</string>
+    <string name="facebook_app_id">3008538355826882</string>
+    <string name="fb_login_protocol_scheme">fb3008538355826882</string>
+    <string name="qeasy_notification">Qeasy</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hola fragmento en blanco</string>
+    <string name="lorem_epsam">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+        totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+        Aperiam eaque ipsa quae ab illo inventore veritatis.</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="register_terms_writing">Al registrarse, acepta que ha leído y aceptado nuestros Términos y condiciones</string>
+    <string name="title_activity_navigation">NavigationActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+
+    <string name="close">Cerrar</string>
+    <string name="open">Abrir</string>
+
+    <!--HOMEPAGE-->
+    <string name="category_popular">Categoría popular</string>
+    <string name="popular_product">Productos populares</string>
+    <string name="recent_product">Productos recientes</string>
+    <string name="types_lista">Tipos</string>
+
+    <!--TYPE CATEGORIA-->
+    <string name="type_list_categoria">Todas las categorias</string>
+
+
+    <!--FORM INPUTS-->
+    <string name="input_first_name">Nombres</string>
+    <string name="input_last_name">Apellidos</string>
+
+    <string name="input_dni">D.N.I</string>
+    <string name="input_genero">Género</string>
+    <string name="input_fecha_nacimiento">Fecha de nacimiento</string>
+    <string name="input_celular">Celular</string>
+    <string name="input_departamento">Departamento</string>
+    <string name="input_direccion">Dirección</string>
+
+
+    <string name="btn_update">Actualizar</string>
+    <string name="btn_create_account">Crear una cuenta</string>
+    <string name="btn_sign_in">Iniciar Sesión</string>
+    <string name="btn_registar">Registrar</string>
+    <string name="btn_register">Inscribirse</string>
+    <string name="btn_sign_in_with_email">Inicia sesión con correo electrónico</string>
+
+
+    <string name="dont_hv_account">¿No tienes una cuenta?</string>
+    <string name="already_hv_account">¿Ya tienes una cuenta?</string>
+    <string name="forgot_password">¿Se te olvidó tu contraseña?</string>
+
+    <string name="input_pdistrict">Districto</string>
+    <string name="input_pprovince">Provincia</string>
+    <string name="input_pmobile">Celular</string>
+    <string name="input_pemail">Email</string>
+    <string name="btn_finish">Finalizar</string>
+
+
+
+    <!--PROFILE ACTIVITY-->
+    <string name="my_orders">Mis ordenes</string>
+    <string name="my_favourites">Mis favoritos</string>
+    <string name="my_shipping_address">Mi direccion de envio</string>
+    <string name="edit_address">Editar dirección</string>
+    <string name="save_address">Guardar direccion</string>
+
+
+    <string name="comentario_descripcion">Queremos saber su opinión si le pareció bien el serviccio que le brindamos</string>
+
+    <string name="string_login">Iniciar sesión</string>
+    <string name="string_logout">Cerrar sesión</string>
+
+    <!--TIPOS DE ENUMERADOS-->
+    <string name="tipo_evento">TipoEvento</string>
+    <string name="tipo_entrada">TipoEntrada</string>
+    <string name="tipo_estado_evento">EstadoEvento</string>
+    <string name="tipo_generol_muusical">GeneroMusical</string>
+
+
+
+</resources>

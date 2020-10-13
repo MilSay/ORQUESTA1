@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "444125824457",
+    "firebase_url": "https://hamid-1491615031746.firebaseio.com",
+    "project_id": "hamid-1491615031746",
+    "storage_bucket": "hamid-1491615031746.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:444125824457:android:51471ab85c54908b",
+        "android_client_info": {
+          "package_name": "com.mishasho.tienda.moda"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "444125824457-ajnjlo0ls4gdt5ejhf4hig3m3fjoothg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mishasho.tienda.moda",
+            "certificate_hash": "d437c345da02303384b6a8302d3035ff6e76e686"
+          }
+        },
+        {
+          "client_id": "444125824457-j4c4etqt7onimv9trjs2q2q9mu88v94d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9zHngs379T9tLOxIFZElj3Onum33pvps"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "444125824457-j4c4etqt7onimv9trjs2q2q9mu88v94d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

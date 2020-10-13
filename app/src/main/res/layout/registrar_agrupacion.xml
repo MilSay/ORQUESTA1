@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/EcommerceTheme"
+    tools:context=".agrupacion.AgrupacionRegistrar">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/abl_cart_appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <include
+            layout="@layout/toolbar_layout"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/abl_cart_appbar">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!--START OF LOGIN AREA-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/fab_margin"
+                android:paddingLeft="@dimen/margin_x"
+                android:paddingRight="@dimen/margin_x"
+                android:paddingTop="@dimen/fab_margin">
+
+                <!--START OF LOGIN WITH PASSWORD AREA-->
+
+
+                <EditText
+                    android:id="@+id/et_agrupacion_razonsocial"
+                    style="@style/ETRegistrationForm"
+                    android:hint="Razon social"
+                    android:inputType="textEmailAddress" />
+
+                <TextView
+                    android:id="@+id/tv_agrupacion_razonsocial"
+                    style="@style/validationMsg" />
+
+                <EditText
+                    android:id="@+id/et_agrupacion_ruc"
+                    style="@style/ETRegistrationForm"
+                    android:hint="Ruc"
+                    android:inputType="textEmailAddress" />
+
+                <TextView
+                    android:id="@+id/tv_agrupacion_ruc"
+                    style="@style/validationMsg" />
+
+                <EditText
+                    android:id="@+id/et_agrupacion_fecha"
+                    style="@style/ETRegistrationForm"
+                    android:hint="Fecha"
+                    android:inputType="textEmailAddress" />
+
+                <TextView
+                    android:id="@+id/tv_agrupacion_fecha"
+                    style="@style/validationMsg" />
+
+                <EditText
+                    android:id="@+id/et_agrupacion_historia"
+                    style="@style/ETRegistrationForm"
+                    android:hint="Historia"
+                    android:inputType="textEmailAddress" />
+
+                <TextView
+                    android:id="@+id/tv_agrupacion_historia"
+                    style="@style/validationMsg" />
+
+                <EditText
+                    android:id="@+id/et_agrupacion_departamento"
+                    style="@style/ETRegistrationForm"
+                    android:hint="Departamento"
+                    android:inputType="textEmailAddress" />
+
+                <TextView
+                    android:id="@+id/tv_agrupacion_departamento"
+                    style="@style/validationMsg" />
+
+                <EditText
+                    android:id="@+id/et_agrupacion_provincia"
+                    style="@style/ETRegistrationForm"
+                    android:hint="Provincia"
+                    android:inputType="textEmailAddress" />
+
+                <TextView
+                    android:id="@+id/tv_agrupacion_provincia"
+                    style="@style/validationMsg" />
+
+                <EditText
+                    android:id="@+id/et_agrupacion_distrito"
+                    style="@style/ETRegistrationForm"
+                    android:hint="Distrito"
+                    android:inputType="textEmailAddress" />
+
+                <TextView
+                    android:id="@+id/tv_agrupacion_distrito"
+                    style="@style/validationMsg" />
+                <EditText
+                    android:id="@+id/et_agrupacion_genero_musica"
+                    style="@style/ETRegistrationForm"
+                    android:hint="Genero musica"
+                    android:inputType="textEmailAddress" />
+
+                <TextView
+                    android:id="@+id/tv_agrupacion_genero_musica"
+                    style="@style/validationMsg" />
+
+
+                <Button
+                    android:id="@+id/btn_user_sign_in"
+                    style="@style/BtnPrimary"
+                    android:text="@string/btn_registar" />
+
+
+            </LinearLayout>
+            <!--END OF LOGIN AREA-->
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

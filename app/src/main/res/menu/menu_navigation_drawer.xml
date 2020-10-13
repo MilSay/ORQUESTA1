@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+   <!-- <item
+        android:id="@+id/nav_home"
+        android:title="Principal"
+        android:icon="@drawable/ic_menu_home"/>-->
+
+    <item
+        android:id="@+id/nav_account"
+        android:title="Perfil"
+        android:icon="@drawable/ic_menu_user_black" />
+
+    <item
+        android:id="@+id/nav_agrupacion"
+        android:title="Agrupaciones"
+        android:icon="@drawable/ic_menu_category_black" />
+
+    <item
+        android:id="@+id/nav_evento"
+        android:title="Eventos"
+        android:icon="@drawable/ic_menu_category_black" />
+
+    <item
+        android:id="@+id/nav_contrato"
+        android:title="Contratos"
+        android:icon="@drawable/ic_menu_category_black" />
+
+    <item
+        android:id="@+id/nav_logout"
+        android:title="Cerrar sesión"
+        android:icon="@drawable/ic_logout" />
+
+   <!-- <item
+        android:id="@+id/nav_coupon_codes"
+        android:title="My Coupon Codes"
+        android:icon="@drawable/ic_menu_offer" />-->
+
+</menu>
